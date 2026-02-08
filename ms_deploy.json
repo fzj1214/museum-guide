@@ -1,0 +1,24 @@
+{
+  "sdk_type": "gradio",
+  "sdk_version": "6.2.0",
+  "resource_configuration": "platform/2v-cpu-16g-mem",
+  "base_image": "ubuntu22.04-py311-torch2.3.1-modelscope1.31.0",
+  "environment_variables": [
+    {"name": "SUPABASE_URL", "value": "https://ngthcrpqxmguqtrefhxs.supabase.co"},
+    {"name": "SUPABASE_KEY", "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5ndGhjcnBxeG1ndXF0cmVmaHhzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA1Mjg4NjQsImV4cCI6MjA4NjEwNDg2NH0.2F2ByNyvZB_ihjTtUM6bAC4yEqaqd1LdbyZEaal4M2k"},
+    {"name": "DASHSCOPE_API_KEY", "value": "ms-65fe4c68-3ec2-4400-bd81-0d4da91c1a60"},
+    {"name": "MODELSCOPE_API_KEY", "value": "ms-65fe4c68-3ec2-4400-bd81-0d4da91c1a60"},
+    {"name": "MODELSCOPE_API_BASE", "value": "https://api-inference.modelscope.cn/v1"},
+    {"name": "ZHIPU_API_KEY", "value": "e40c4dba760c4d8da5b803cc7a526bb6.SxY3zJKkszPP2OF5"},
+    {"name": "CLIP_MODEL", "value": "Qwen/Qwen3-Embedding-4B"},
+    {"name": "VLM_MODEL", "value": "Qwen/Qwen2.5-VL-7B-Instruct"},
+    {"name": "NARRATION_MODEL", "value": "Qwen/Qwen3-32B"},
+    {"name": "TEXT_EMBEDDING_MODEL", "value": "Qwen/Qwen3-Embedding-4B"},
+    {"name": "TEXT_EMBEDDING_DIM", "value": "1536"},
+    {"name": "SIMILARITY_THRESHOLD", "value": "0.8"},
+    {"name": "TTS_PROFESSIONAL_VOICE", "value": "zhichu"},
+    {"name": "TTS_CASUAL_VOICE", "value": "zhibei"},
+    {"name": "AUDIO_BUCKET", "value": "audio-cache"},
+    {"name": "KIMI_VLM_MODEL", "value": "moonshotai/Kimi-K2.5"}
+  ]
+}
