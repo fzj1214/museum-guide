@@ -3,3 +3,4 @@ __pycache__/
 .gradio/
 *.pyc
 .DS_Store
+ms_deploy.json
